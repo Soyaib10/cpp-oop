@@ -2,10 +2,18 @@
 using namespace std;
 
 class Room {
-public:
+private:
 	double length;
 	double breadth;
 	double height;
+
+public:
+	// parameterized constructor to initialize variables
+	Room(double length, double breadth, double height) {
+		this->length = length;
+		this->breadth = breadth;
+		this->height = height;
+	}
 
 	double calculateArea() {
 		return length * breadth;
@@ -17,10 +25,7 @@ public:
 };
 
 int main() {
-	Room room;
-	room.length = 42.5;
-	room.breadth = 30.8;
-	room.height = 19.2;
+	Room room(10.2, 10.3, 10.4);
 
 	cout << "area: " << room.calculateArea() << "\n";
 	cout << "volume: " << room.calculateVolume() << "\n";
