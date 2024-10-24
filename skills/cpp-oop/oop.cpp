@@ -24,9 +24,32 @@ public:
 	}
 };
 
+// copy constructor
+class CopyConstructor {
+public:
+	int x;
+	CopyConstructor(int x) {
+		this->x = x;
+	}
+
+	// ccopy constructor
+	CopyConstructor(const CopyConstructor &obj) {
+		x = obj.x;
+	}
+
+	void display() {
+		cout << "x: " << x << "\n";
+	}
+};
+
 int main() {
 	Room room(10.2, 10.3, 10.4);
-
 	cout << "area: " << room.calculateArea() << "\n";
 	cout << "volume: " << room.calculateVolume() << "\n";
+
+	// copy constructor area
+	CopyConstructor obj1(10);
+	CopyConstructor obj2 = obj1;
+	obj1.display();
+	obj2.display();
 }
