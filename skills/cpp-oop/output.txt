@@ -1,2 +1,1 @@
-23 Human
-24 Student 7
+Animal
