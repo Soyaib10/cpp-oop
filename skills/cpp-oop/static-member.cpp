@@ -16,7 +16,6 @@ public:
 		this->b = b;
 	}
 	static int display() {
-		b = b + 1;
 		return a;
 	}
 };
