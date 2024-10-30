@@ -1,10 +1,8 @@
-Default interest rate: 50%
-Account created with initial balance: 1000 Taka
-Initial balance for acc1: 1000 Taka
-Interest added: 500 Taka
-Balance after adding interest: 1500 Taka
-Interest rate set to: 6%
-Account created with initial balance: 2000 Taka
-Initial balance for acc2: 2000 Taka
-Interest added: 120 Taka
-Balance after adding interest: 2120 Taka
+User created: John (01717001473)
+User created: Jane (01717001472)
+John's Messages:
+hi!
+hello!
+
+Top Friends:
+Jane and John - Messages: 2
